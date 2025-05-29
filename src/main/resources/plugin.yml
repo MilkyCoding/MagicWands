@@ -1,0 +1,17 @@
+name: MagicWands
+version: '${project.version}'
+main: me.milkycoding.magicwands.MagicWands
+api-version: '1.16'
+description: Плагин для магических палочек с различными эффектами
+author: MilkyCoding
+
+commands:
+  magicwands:
+    description: Основная команда плагина MagicWands
+    usage: /magicwands <give|help>
+    aliases: [mw, wand]
+
+permissions:
+  magicwands.admin:
+    description: Доступ к административным командам плагина
+    default: op
